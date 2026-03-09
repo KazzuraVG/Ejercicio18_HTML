@@ -1,22 +1,104 @@
-<html>  
-
+<!DOCTYPE html>
+<html lang="es">
 <head>
-   <meta charset="UTF-8">
-    <title>Fim Uas</title>
-    <link rel="stylesheet" href="style.css">
-</head> 
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Facultad de Ingenieria Mochis - UAS</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
 <body>
-    
-<img src="C:\Users\carlo\OneDrive\Desktop\ProyectoPagina\Imagenes\TOP.png" class="img-centro">
 
-<nav class="menu">
-    <a href="#">Inicio</a>
-    <a href="#">Misión y Visión</a>
-    <a href="#">Licenciatura</a>
-    <a href="#">Posgrado</a>
-    <a href="#">SECIHTI</a>
-    <a href="#">Comisión Académica de Titulación</a>
-    <a href="#">Cursos</a>
-</nav>
-  
+
+<header class="site-header">
+  <div class="container">
+    <h1 class="logo">FIM UAS</h1>
+    
+    <nav class="navbar">
+      <a href="#">Inicio</a>
+      <a href="#carreras">Carreras</a>
+      <a href="#materias">Materias</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+    <div class="menu-btn" onclick="toggleMenu()">
+      <span></span><span></span><span></span>
+    </div>
+  </div>
+
+  <div class="menu" id="sideMenu">
+    <h3>Menú Principal</h3>
+    <ul>
+      <li>Dirección Escolar</li>
+      <li>Servicios Academicos</li>
+      <li>Programa de Tutorías</li>
+      <li>Servicios Escolares</li>
+      <li>Oferta Educativa</li>
+      <li>Egresados</li>
+      <li class="submenu-title">Logotipos</li>
+      <li>
+        <ul class="submenu">
+          <li>Logo UAS</li>
+          <li>Logo FIM</li>
+          <li>Logo vision de futuro 2029</li>
+        </ul>
+      </li>
+      <li>Convocatorias</li>
+      <li>Bolsa de Trabajo</li>
+      <li>Modelo Educativo</li>
+      <li>Reglamentacion</li>
+      <li>Transparencia</li>
+      <li>Certificacion</li>
+    </ul>
+  </div>
+</header>
+
+
+<section class="hero">
+  <h2>Facultad de Ingenieria Mochis</h2>
+  <img src="C:\Users\carlo\OneDrive\Desktop\ProyectoPagina\Imagenes\R.png" alt="logo" style="margin-left: 1%; width: 100px; height: 100px;">
+  <p>Universidad Autonoma de Sinaloa — formando ingenieros con vision de futuro</p>
+  <a href="#carreras">Ver carreras</a>
+</section>
+
+
+<section id="carreras" class="info-section">
+  <h2>Carreras</h2>
+  <p>La facultad ofrece programas enfocados en tecnología y desarrollo de software.</p>
+  <div class="cards">
+    <div class="card">Ingenieria en Software</div>
+    <div class="card">Ingenieria Civil</div>
+    <div class="card">Ingenieria Geodesia</div>
+  </div>
+</section>
+
+
+<section id="materias" class="info-section">
+  <h2>Materias</h2>
+  <div class="list-items">
+    <div class="list-item">Programacion</div>
+    <div class="list-item">Bases de datos</div>
+    <div class="list-item">Introduccion al Desarrollo de Software</div>
+    <div class="list-item">Sistemas operativos</div>
+    <div class="list-item">Ingenieria de software</div>
+  </div>
+</section>
+
+
+<section id="contacto" class="info-section">
+  <h2>Contacto</h2>
+  <div class="contact-box">
+    <p>Facultad de Ingenieria Mochis</p>
+    <p>Universidad Autonoma de Sinaloa</p>
+    <p>contacto@fim.uas.edu.mx</p>
+  </div>
+</section>
+
+
+<footer class="site-footer">
+  <p>2026 Facultad de Ingenieria Mochis — Universidad Autonoma de Sinaloa</p>
+</footer>
+
+
+
+</body>
 </html>
